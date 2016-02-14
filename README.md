@@ -1,4 +1,4 @@
-** STER SINEMAS ANDROID APP
+## STER SINEMAS ANDROID APP
 
 
 This is an unofficial app for Ster Cinemas films, it's allows you to see the films screenings. 
