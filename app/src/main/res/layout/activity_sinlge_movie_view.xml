@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="eu_dfg_team_projects.stercinemas.SinlgeMovieView">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:transitionName="tImage"
+        android:id="@+id/singleMoviePoster"
+        android:background="#787878"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/singleMovieTitle"
+        android:layout_below="@+id/singleMoviePoster"
+        android:textColor="#787878"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:textSize="17dp"
+        android:text="Movie title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Προβολές"
+        android:id="@+id/screenTitle"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16dp"
+        android:layout_below="@+id/singleMovieTitle"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/screensList"
+        android:layout_below="@+id/screenTitle">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

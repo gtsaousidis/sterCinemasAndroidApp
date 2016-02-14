@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:id="@+id/screens"
+    android:background="#B0E0F9"
+    android:layout_marginBottom="5dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#787878"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ημερομηνία:"
+        android:textColor="#000000"
+        android:shadowDx="3"
+        android:shadowColor="#787878"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateScreen"
+        android:text="εδώ πάει η ημερομηνία"
+        android:layout_toRightOf="@+id/date"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/date"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="8dp"
+        android:id="@+id/timesTitle"
+        android:textColor="#000000"
+        android:layout_marginLeft="25dp"
+        android:text="Ώρες προβολής:"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/times"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/timesTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/timesTitle"
+        android:text="εδώ πάνε οι ώρες"/>
+
+</RelativeLayout>
